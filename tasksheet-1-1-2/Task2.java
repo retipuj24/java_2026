@@ -59,7 +59,7 @@ public class Task2 {
        
         // print char by char comparison
         // print the header   
-        System.out.println("CODE:" + "\t" + "\t"+ "\t"+"CODE:" + "\t\t\t");
+        System.out.println("CODE:" + "\t\t\t"+"CODE:" + "\t\t\t");
             
         for (int i = 0; i < expectedString.length(); i++) {
             System.out.print("chr("+ (int)(expectedString.charAt(i)) +  ")"+ " : "+"\t" + expectedString.charAt(i));
