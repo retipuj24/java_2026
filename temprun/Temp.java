@@ -1,6 +1,8 @@
 public class Temp {
     public static void main(String[] args) {
         System.out.println("Hello World");
+
+
         // double num1 = 5.5,  int num2 = 10; // will not compile because of incompatible types
         
         // String chair, table="metal";
@@ -46,10 +48,30 @@ public class Temp {
         double      64-bit floating-point value     123.456
         char        16-bit Unicode value            'a'
         -----------------------------------------------------
-     */
-       
-
+        */
         
-    
-    }
+        //What is true  of finalize() method in Java?
+        // 1. It is called by the garbage collector before an object is destroyed.
+        // 2. It can be overridden to perform cleanup operations before an object is garbage collected
+        // 3. It is not guaranteed to be called, and its execution is not predictable.
+        // 4. It is deprecated in Java 9 and later versions, and its use
+        //    is generally discouraged in favor of other resource management techniques, such as try-with-resources and explicit cleanup methods.
+        // answer code ends here
+
+        // String str1;
+        // System.out.println(str1); // will not compile because str1 is not initialized - local variable must be initialized before use
+
+        //int c = Integer.valueOf(0); // works because Integer.valueOf(0) returns an Integer object which is unboxed to an int primitive type
+
+        String s1 =  "Java";
+        String s2 =  "Java";
+        StringBuilder sb1 = new StringBuilder();
+        sb1.append("Ja").append("va");
+        System.out.println(s1 == s2); // true because string literals are interned in Java, so s1 and s2 refer to the same memory location
+        System.out.println(s1.equals(s2)); // true because s1 and s2 have the same content
+        System.out.println(sb1.toString()==s1); // false because sb1.toString() creates a new String object that is not interned, so it does not refer to the same memory location as s1
+        System.out.println(sb1.toString().equals(s1)); // false because sb1.toString
+
+    }   
+
 }
