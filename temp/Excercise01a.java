@@ -1,5 +1,6 @@
 package temp;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 import java.util.function.Predicate;
@@ -22,6 +23,9 @@ public class Excercise01a {
         int largest = numbers.stream()
                 .max(Integer::compare)
                 .orElseThrow(() -> new IllegalArgumentException("No numbers provided"));
-        System.out.println("The largest number is: " + largest);
+        System.out.println("The largest number is: " + Collections.max(numbers) );
+        System.out.println(Collections.min(numbers)
+    );
     }   
+    
 }
