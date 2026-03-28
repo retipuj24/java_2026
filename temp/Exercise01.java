@@ -20,5 +20,6 @@ public class Exercise01 {
         } else {
             System.out.println("The largest number is: " + num3);
         }
+        input.close();
     }
 }
