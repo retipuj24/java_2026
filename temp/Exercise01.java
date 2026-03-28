@@ -11,6 +11,8 @@ public class Exercise01 {
         int num2 = input.nextInt();
         int num3 = input.nextInt();
 
+        
+
         if(num1 > num2 && num1 > num3) {
             System.out.println("The largest number is: " + num1);
         } else if(num2> num1 && num2 > num3) {
