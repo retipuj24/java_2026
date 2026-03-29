@@ -1,7 +1,5 @@
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -11,7 +9,7 @@ public class StreamDemo {
         // stream from a list
         List<String> names = Arrays.asList("Jupiter","John", "Jane", "Jack");
         System.out.println(names);
-        Stream<String> stream = names.stream();
+        Stream<String> stream = names.stream().filter(s -> s.contains("hn")).map(s -> s.toUpperCase());
         stream.forEach(t -> System.out.println(t));
 
         // stram from arrays
@@ -29,6 +27,7 @@ public class StreamDemo {
     
         List<Integer> numberSquare = numIntegers.stream().map(n -> n*n).collect(Collectors.toList());
         System.out.println(numberSquare);
+
 
     }
 }
