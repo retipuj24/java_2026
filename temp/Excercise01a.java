@@ -24,8 +24,9 @@ public class Excercise01a {
                 .max(Integer::compare)
                 .orElseThrow(() -> new IllegalArgumentException("No numbers provided"));
         System.out.println("The largest number is: " + Collections.max(numbers) );
-        System.out.println(Collections.min(numbers)
+        System.out.println(Collections.min(numbers);
+
     );
     }   
-    
+
 }
