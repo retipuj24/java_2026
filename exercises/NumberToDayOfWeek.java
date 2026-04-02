@@ -35,23 +35,28 @@ public class NumberToDayOfWeek {
             case 2:
                 System.out.println(msg);
                 System.out.println("You have entered " +inputNumber + " equivalent as " + dayEquivalentInWeek[--inputNumber] + " of the Week.");
-                System.out.println(msg);                break;
+                System.out.println(msg);                
+                break;
             case 3:
                 System.out.println(msg);
                 System.out.println("You have entered " +inputNumber + " equivalent as " + dayEquivalentInWeek[--inputNumber] + " of the Week.");
-                System.out.println(msg);                break;
+                System.out.println(msg);                
+                break;
             case 4:
                 System.out.println(msg);
                 System.out.println("You have entered " +inputNumber + " equivalent as " + dayEquivalentInWeek[--inputNumber] + " of the Week.");
-                System.out.println(msg);                break;
+                System.out.println(msg);                
+                break;
             case 5:
                 System.out.println(msg);
                 System.out.println("You have entered " +inputNumber + " equivalent as " + dayEquivalentInWeek[--inputNumber] + " of the Week.");
-                System.out.println(msg);                break;
+                System.out.println(msg);                
+                break;
             case 6:
                 System.out.println(msg);
                 System.out.println("You have entered " +inputNumber + " equivalent as " + dayEquivalentInWeek[--inputNumber] + " of the Week.");
-                System.out.println(msg);                break;
+                System.out.println(msg);                
+                break;
             case 7:
                 System.out.println(msg);
                 System.out.println("You have entered " +inputNumber + " equivalent as " + dayEquivalentInWeek[--inputNumber] + " of the Week.");
