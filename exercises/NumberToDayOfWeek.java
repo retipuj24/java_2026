@@ -4,7 +4,7 @@ public class NumberToDayOfWeek {
     static String[] dayEquivalentInWeek = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"} ;
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String input = "y";
+        String input = "";
         do {
             System.out.print("\nPlease enter 1 to 7 only for day in Week equivalent: > ");
             if (scanner.hasNextInt()) {
@@ -14,13 +14,17 @@ public class NumberToDayOfWeek {
                 System.out.println("THAT'S NOT A VALID NUMBER!");
                 scanner.next();   
             }
+            System.out.println("Do you want to exit this program? (y/n) > ");
+            input = scanner.next().toLowerCase();
         } while (!input.equalsIgnoreCase("y"));
     }
 
     public static void getInput(int inputNum){
         int inputNumber = inputNum ;
-        
+
+                
         switch (inputNumber) {
+
             case 1:
                 System.out.println("\nYou have entered " +inputNumber + " equivalent as " + dayEquivalentInWeek[--inputNumber] + " of the Week.\n");
                 break;
