@@ -1,4 +1,3 @@
-package temp;
 import java.util.function.Predicate;
 /**
  * another documentation
