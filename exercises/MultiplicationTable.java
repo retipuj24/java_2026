@@ -1,3 +1,7 @@
+/**
+ * Multiplication Table 10x10
+ */
+
 public class MultiplicationTable {
     public static void main(String[] args) {
         int rows = 10;
