@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
@@ -12,7 +11,7 @@ public class CheckVowelsConsonants {
      
         do{
             // input = "";
-            System.out.print("Please enter a string: > ");
+            System.out.print("\nPlease enter a string: > ");
             if(scanner.hasNextLine()){
                 input = scanner.nextLine();
                 // System.out.println(">> You entered: " + input);
