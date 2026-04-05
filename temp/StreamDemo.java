@@ -28,6 +28,6 @@ public class StreamDemo {
         List<Integer> numberSquare = numIntegers.stream().map(n -> n*n).collect(Collectors.toList());
         System.out.println(numberSquare);
 
-
+        System.out.println("AEIOUaeiou".indexOf('a'));
     }
 }
