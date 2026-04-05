@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class OddEvenDemo {
     public static void main(String[] args) {
-                        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         String input = "";
         do {
             System.out.print("\nPlease enter a number only: > ");

@@ -20,7 +20,7 @@ public static void main(String[] args) {
                 System.out.println("THAT'S NOT A VALID NUMBER!");
                 scanner.next();   
             }
-            System.out.print("Press any key to continue, Press 'y' if you want to exit this program. Exit?(y) > ");
+            System.out.print("\nPress any key to continue, Press 'y' if you want to exit this program. Exit?(y) > ");
             input = scanner.next().toLowerCase();
             clearScreen();
             
@@ -39,9 +39,13 @@ public static void main(String[] args) {
     }
     public static void displayEnteredNumbers(){
         String msg = "===================================================================================";
+        //String hLine = "--------------------------------------------------------------";
+        String yellowBG = "\u001B[43m";
+        String blackText = "\u001B[30m";
+        String reset = "\u001B[0m";
         System.out.println(msg);
-        System.out.println("Entered integers are: " + numbers);
-        System.out.println("Sum of all entered integers is: " + numbers.stream().mapToInt(Integer::intValue).sum());
+        System.out.println("Entered integers are: " + yellowBG + blackText + numbers + reset);
+        System.out.println("Sum of all entered integers is: " + yellowBG + blackText + numbers.stream().mapToInt(Integer::intValue).sum() + reset);
         System.out.println(msg);
     }
 }
