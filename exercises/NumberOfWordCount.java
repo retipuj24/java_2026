@@ -1,8 +1,5 @@
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 import java.util.StringTokenizer;
-import java.util.stream.Collectors;
 
 public class NumberOfWordCount {
     public static void main(String[] args) {
@@ -39,9 +36,6 @@ public class NumberOfWordCount {
         String yellowBG = "\u001B[43m";
         String blackText = "\u001B[30m";
         String reset = "\u001B[0m";
-        // String vowels = "AEIOUaeiou";
-        // String consonants = "CDFGHJKLMNPQRSTVWXYZcdfghjklmnpqrstvwxyz";
-        // List<Character> selectedChars = new ArrayList<>();
 
         System.out.println(hLine);
         System.out.println("Entered string for WORD COUNT: ");        
