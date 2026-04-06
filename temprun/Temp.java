@@ -71,7 +71,18 @@ public class Temp {
     System.out.println(s1.equals(s2)); // true because s1 and s2 have the same content
     System.out.println(sb1.toString()==s1); // false because sb1.toString() creates a new String object that is not interned, so it does not refer to the same memory location as s1
     System.out.println(sb1.toString().equals(s1)); // false because sb1.toString
+    System.out.println("====================================================================");
+    int score = 1;
+    try {
+        // int score = 1;
+        System.out.print(score++);
+    } catch (Throwable t) { System.out.print(score++);} 
+    finally { System.out.print(score++);}
 
-    }   
+    System.out.print(score++);
+
+    }
+
+    
 
 }
