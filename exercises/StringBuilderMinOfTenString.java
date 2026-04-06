@@ -72,20 +72,23 @@ public class StringBuilderMinOfTenString {
         String hLine = "---------------------------------------------------------------------------------------------";
         String yellowBG = "\u001B[43m";
         String blackText = "\u001B[30m";
+        String yellowText ="\u001B[33m";
         String reset = "\u001B[0m";
+
+
         StringBuilder sb = new StringBuilder(str);
         System.out.println(hLine);
         System.out.println("Original String: " + yellowBG+ blackText +  str + reset);
         System.out.println(hLine);
-        System.out.println("Printing the length using StringBuilder: " + yellowBG+ blackText + sb.length() + reset);
-        System.out.println("Printing the first character using StringBuilder: " + yellowBG+ blackText + sb.charAt(0) + reset);
-        System.out.println("Printing the last character using StringBuilder: " + yellowBG+ blackText + sb.charAt(sb.length()-1) + reset);
-        System.out.println("Print the index of the first occurrence of the letter 'a' using StringBuilder: " + yellowBG+ blackText + sb.indexOf("a") + reset);
-        System.out.println("Print the substring of the string from index 3 to index 6 using StringBuilder: " + yellowBG+ blackText + sb.substring(3, 6) + reset);
-        System.out.println("Append the string \"123\" to the end using StringBuilder: " + yellowBG+ blackText + sb.append("\"123\"") + reset);
-        System.out.println("Insert the string \"xyz\" at index 4 using StringBuilder: " + yellowBG+ blackText + sb.insert(4, "\"xyz\"") + reset);  
-        System.out.println("Delete the character at index 8 using StringBuilder: " + yellowBG+ blackText + sb.deleteCharAt(8) + reset);
-        System.out.println("Reverse the string and print it using StringBuilder: " + yellowBG+ blackText + sb.reverse() + reset);
+        System.out.println("Printing the " + yellowText + "length " + reset +  "using StringBuilder: " + yellowBG+ blackText + sb.length() + reset);
+        System.out.println("Printing the " + yellowText + " first character " + reset + "using StringBuilder: " + yellowBG+ blackText + sb.charAt(0) + reset);
+        System.out.println("Printing the " + yellowText + "last character " + reset + "using StringBuilder: " + yellowBG+ blackText + sb.charAt(sb.length()-1) + reset);
+        System.out.println("Print the " + yellowText + "index of the first occurrence of the letter 'a' " + reset + "using StringBuilder: " + yellowBG+ blackText + sb.indexOf("a") + reset);
+        System.out.println("Print the " + yellowText + " substring of the string from index 3 to index 6 using StringBuilder: " + yellowBG+ blackText + sb.substring(3, 6) + reset);
+        System.out.println("Append the string " + yellowText + "\"123\" to the end " + reset + "using StringBuilder: " + yellowBG+ blackText + sb.append("\"123\"") + reset);
+        System.out.println("Insert the string " + yellowText + "\"xyz\" at index 4 "+ reset +"using StringBuilder: " + yellowBG+ blackText + sb.insert(4, "\"xyz\"") + reset);  
+        System.out.println("Delete the " + yellowText + "character at index 8 " + reset + "using StringBuilder: " + yellowBG+ blackText + sb.deleteCharAt(8) + reset);
+        System.out.println( yellowText + "Reverse the string and print it " + reset + "using StringBuilder: " + yellowBG+ blackText + sb.reverse() + reset);
         System.out.println(hLine);
         
         
