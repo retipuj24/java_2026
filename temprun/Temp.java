@@ -1,3 +1,6 @@
+import java.time.LocalDate;
+import java.time.LocalTime;
+
 public class Temp {
     public static void main(String[] args) {
         System.out.println("Hello World");
@@ -80,6 +83,13 @@ public class Temp {
     finally { System.out.print(score++);}
 
     System.out.print(score++);
+    
+    System.out.println("\n====================================================================");
+    LocalDate localDate = LocalDate.now();
+    System.out.println(localDate);
+    LocalTime localTime = LocalTime.now();
+    System.out.println(localTime);
+
 
     }
 

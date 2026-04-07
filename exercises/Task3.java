@@ -36,6 +36,7 @@ public class Task3 {
         if (b1 && b2 && b3) {
             System.out.println("Success!");
         }
+        // write a print to as a marker to execution after if
         // System.out.println("nothing to see here...");
     }
 }
