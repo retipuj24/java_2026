@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Task4 {
     private static String inpuString;
     public static void main(String[] args) {
-        getInput("Enter your name", 1, 100);
+        getInput("Enter a word for palindrome check: > ", 1, 100);
         processString(getValidString());
 
         
