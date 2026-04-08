@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Task4 {
     private static String inpuString;
     public static void main(String[] args) {
-        getInput("Enter a word for palindrome check: > ", 1, 100);
+        getInput("Enter a word for palindrome check: > ", 1, 1);
         processString(getValidString());
 
         
@@ -15,9 +15,9 @@ public class Task4 {
             // clearScreen();
             Scanner scanner = new Scanner(System.in);
             inpuString= "";
-            System.out.print(prompt + ": > ");
+            System.out.print(prompt);
             String inpStr = scanner.nextLine().trim();
-            if(inpStr.length() >  0 ){
+            if(inpStr.length() >=  min /*&& inpStr.length() <=  max*/){
                 inpuString = inpStr;
                 notValid =false;
             }else{
@@ -58,6 +58,7 @@ public class Task4 {
         String reversedString = sb.reverse().toString();
         System.out.println(hLine);
         System.out.println("Original String: " + yellowBG+ blackText +  str + reset);
+        System.out.println("Reversed String: " + yellowBG+ blackText +  reversedString + reset);
         System.out.println("The input string is " + yellowText + (reversedString.equalsIgnoreCase(str) ? "A PALINDROME" : "NOT A PALINDROME") + reset );
         System.out.println(hLine);        
     }
