@@ -30,6 +30,7 @@ public class StreamDemo {
         List<Integer> numberSquare = numIntegers.stream().map(n -> n*n).collect(Collectors.toList());
         System.out.println(numberSquare);
 
+<<<<<<< HEAD
         int length = 10;
       
         List<String> names1 = Arrays.asList("Menardo", "Alicia", "Bobi", "Carlito", "Devon", "Edward", "Fernando", "Gregoria");
@@ -50,5 +51,8 @@ public class StreamDemo {
                             .collect(Collectors.toList());
          System.out.println(selectedNames);
 
+=======
+        System.out.println("AEIOUaeiou".indexOf('a'));
+>>>>>>> refs/remotes/origin/main
     }
 }
