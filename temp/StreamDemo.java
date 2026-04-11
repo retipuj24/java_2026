@@ -7,10 +7,12 @@ import java.util.stream.Stream;
 public class StreamDemo {
     public static void main(String[] args) {
         // stream from a list
-        List<String> names = Arrays.asList("Jupiter","John", "Jane", "Jack");
+        List<String> names = Arrays.asList("Jupiter "," John", "Jane", "Jack");
         System.out.println(names);
         Stream<String> stream = names.stream().filter(s -> s.contains("hn")).map(s -> s.toUpperCase());
         stream.forEach(t -> System.out.println(t));
+        List<String> nms = names.stream().map(n -> n.strip()).map(n -> n.toUpperCase()).collect(Collectors.toList());
+        System.out.println(nms);
 
         // stram from arrays
         int[] numbers = {1,2,3,4,5,6};
@@ -28,6 +30,29 @@ public class StreamDemo {
         List<Integer> numberSquare = numIntegers.stream().map(n -> n*n).collect(Collectors.toList());
         System.out.println(numberSquare);
 
+<<<<<<< HEAD
+        int length = 10;
+      
+        List<String> names1 = Arrays.asList("Menardo", "Alicia", "Bobi", "Carlito", "Devon", "Edward", "Fernando", "Gregoria");
+        List<String> selectedNames = names1.stream()
+                            .filter(s -> s.length() < length)
+                            .collect(Collectors.toList());
+        System.out.println(selectedNames);
+        
+        // ascending
+        selectedNames = names1.stream()
+                            .sorted((n1,n2)-> n1.compareTo(n2))
+                            .collect(Collectors.toList());
+         System.out.println(selectedNames);
+         
+         // descending
+         selectedNames = names1.stream()
+                            .sorted((n1,n2)-> n2.compareTo(n1))
+                            .collect(Collectors.toList());
+         System.out.println(selectedNames);
+
+=======
         System.out.println("AEIOUaeiou".indexOf('a'));
+>>>>>>> refs/remotes/origin/main
     }
 }

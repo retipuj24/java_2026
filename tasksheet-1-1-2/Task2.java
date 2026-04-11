@@ -65,6 +65,7 @@ public class Task2 {
             System.out.print("chr("+ (int)(expectedString.charAt(i)) +  ")"+ " : "+"\t" + expectedString.charAt(i));
             System.out.println("\t"+ "chr("+ (int)(concatString.charAt(i)) +  ")"+ " : "+"\t" + concatString.charAt(i));            
         }
+        
     }
 
 }
