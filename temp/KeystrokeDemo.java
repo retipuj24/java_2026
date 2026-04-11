@@ -6,7 +6,7 @@ public class KeystrokeDemo {
     public static void main(String[] args) {
         do{
             KeystrokeDemo.input = "";
-            System.out.print("enter any character: ");
+            System.out.print("enter any character: > ");
             askContinue();
 
             System.out.println("You have entered : " + input);
