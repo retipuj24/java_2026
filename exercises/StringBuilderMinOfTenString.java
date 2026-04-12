@@ -23,7 +23,7 @@ import java.util.Scanner;
 public class StringBuilderMinOfTenString {
     private static String inpuString;
     public static void main(String[] args) {
-        getInput("Enter your name", 10, 400);
+        getInput("Enter ten words minimum", 10, 400);
         processString(getValidString());
 
         
