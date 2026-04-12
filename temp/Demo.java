@@ -1,15 +1,11 @@
-/*
-modified to an efficient user input getter
-*/
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-public class CheckVowelsConsonants {
-    
-    public static String input = "";
+public class Demo {
 
+    public static String input = "";
     public static void main(String[] args) {
   
         do{
@@ -31,8 +27,7 @@ public class CheckVowelsConsonants {
         List<Character> selectedChars = new ArrayList<>();
 
         System.out.println(hLine);
-        System.out.printf(boldYellowText +"Entered string: " + reset);
-        System.out.print(blackText +yellowBG + str+ reset +"\n");
+        System.out.printf(yellowBG + blackText +"Entered string: " + blackText +yellowBG + str+ reset +"\n");
         System.out.println(hLine);
         
         System.out.print(boldYellowText + "VOWELS"+ reset +" in entered string: ");    
@@ -69,13 +64,9 @@ public class CheckVowelsConsonants {
         if(answer.equalsIgnoreCase("y")){
             System.exit(0);
         }else{
-            
-            // checked this out - its possible to call the class static variable by instance variable
-            // CheckVowelsConsonants cvc = new CheckVowelsConsonants();
-            // cvc.input = answer;
-            
-            CheckVowelsConsonants.input = answer;
+            Demo.input = answer;
             clearScreen();
-        }   
-    }    
+        }
+        
+    }
 }
