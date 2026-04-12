@@ -1,7 +1,4 @@
-<<<<<<< HEAD:temp/Exercise01.java
 
-=======
->>>>>>> refs/remotes/origin/main:exercises/Exercise01.java
 import java.util.Scanner;
 
 public class Exercise01 {
