@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringBuilderMinOfTenString",
+            "request": "launch",
+            "mainClass": "StringBuilderMinOfTenString",
+            "projectName": "java_2026_e78c6e3f"
+        },
+        {
+            "type": "java",
+            "name": "Exercise01",
+            "request": "launch",
+            "mainClass": "Exercise01",
+            "projectName": "java_2026_e78c6e3f"
+        },
+        {
+            "type": "java",
+            "name": "Excercise01a",
+            "request": "launch",
+            "mainClass": "Excercise01a",
+            "projectName": "java_2026_e78c6e3f"
+        },
+        {
+            "type": "java",
             "name": "Program",
             "request": "launch",
             "mainClass": "Program",

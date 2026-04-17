@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 // package temp;
 
-=======
->>>>>>> refs/remotes/origin/main
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
@@ -46,7 +43,6 @@ public class Excercise01a {
         int num3 = input.nextInt();
 
         List<Integer> numbers = List.of(num1, num2, num3);
-<<<<<<< HEAD
         List<Integer> numerals = numbers.stream()
                 // .sorted((n1, n2) -> n1.compareTo(n2))
                 .sorted()
@@ -58,18 +54,9 @@ public class Excercise01a {
             System.out.println("The smallest number is: " +Collections.min(numerals));  
         }
         input.close();   
+    
+        
     }
-=======
-        // numbers.stream()
-        //         .sorted()
-        //         .forEach(System.out::println); 
-        int largest = numbers.stream()
-                .max(Integer::compare)
-                .orElseThrow(() -> new IllegalArgumentException("No numbers provided"));
-        System.out.println("The largest number is: " + Collections.max(numbers) );
-        System.out.println(Collections.min(numbers));
+}   
 
-    }   
 
->>>>>>> refs/remotes/origin/main
-}
