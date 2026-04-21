@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MyDate",
+            "request": "launch",
+            "mainClass": "MyDate",
+            "projectName": "java_2026_747d8d32"
+        },
+        {
+            "type": "java",
             "name": "StringBuilderMinOfTenString",
             "request": "launch",
             "mainClass": "StringBuilderMinOfTenString",
