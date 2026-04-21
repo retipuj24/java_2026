@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Task131",
+            "request": "launch",
+            "mainClass": "Task131",
+            "projectName": "java_2026_e78c6e3f"
+        },
+        {
+            "type": "java",
+            "name": "Temp",
+            "request": "launch",
+            "mainClass": "Temp",
+            "projectName": "java_2026_e78c6e3f"
+        },
+        {
+            "type": "java",
             "name": "Task113",
             "request": "launch",
             "mainClass": "Task113",
