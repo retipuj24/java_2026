@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Task4",
+            "request": "launch",
+            "mainClass": "Task4",
+            "projectName": "java_2026_e78c6e3f"
+        },
+        {
+            "type": "java",
             "name": "Task131",
             "request": "launch",
             "mainClass": "Task131",
