@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 
 public class Task5 {
     public static String input = "";
-    public static String message = "";
+
     List<String> enteredList;
     List<Number> numberList;
 
@@ -64,10 +64,10 @@ public class Task5 {
         // System.out.println(arr);
         
         boolean allSame = new HashSet<>(numberList).size() == 1;
-        String comparedString = allSame?"THE SAME." : "NOT THE SAME.";
+        String comparedString = allSame?"EQUAL." : "NOT EQUAL.";
 
         System.out.println("ALL Numbers are " + greeenText + comparedString +  reset);
-        System.out.println(greeenText + "HIGHEST NUMBER : "+ reset + yellowBG + blackText + arr.get(arr.size()-1)+reset);
+        System.out.println(greeenText + "LARGEST NUMBER : "+ reset + yellowBG + blackText + arr.get(arr.size()-1)+reset);
         System.out.println(hLine);
     }
        
@@ -93,6 +93,7 @@ public class Task5 {
         }
 
         else{    
+            
             Task5.input = answer;
         }  
     }  
