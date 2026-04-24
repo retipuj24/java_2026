@@ -76,7 +76,6 @@ public class Task7 {
             System.out.println(greeenText + "Subrtaction of " + reset+ num1 + " and " +  num2 + " is " +   yellowBG + blackText + this.subtract(num1, num2)+ reset);
             System.out.println( greeenText + "Multiplication of " + reset + num1 + " and " +  num2 + " is " + yellowBG + blackText +  this.multiply(num1, num2)+ reset);
             System.out.println(greeenText + "Division of " + reset + num1 + " and " +  num2 + " is " +  yellowBG + blackText + this.divide(num1, num2)+ reset);
-            
             System.out.println(hLine);
         }
     }
