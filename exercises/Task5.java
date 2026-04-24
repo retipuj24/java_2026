@@ -28,8 +28,6 @@ public class Task5 {
             // task.printTheList();      
             task.getInput("Enter three(3) numbers: > " );
             task.processTheInput(input);
-            task.getInput("Enter three(3) numbers: > " );
-            task.processTheInput(input);
             clearScreen();
             task.printTheList();   
             toContinue = task.countEqualsTo(3);             
