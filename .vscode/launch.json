@@ -6,55 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Demo",
-            "request": "launch",
-            "mainClass": "Demo",
-            "projectName": "java_2026_724e815d"
-        },
-        {
-            "type": "java",
-            "name": "CheckVowelsConsonants",
-            "request": "launch",
-            "mainClass": "CheckVowelsConsonants",
-            "projectName": "java_2026_724e815d"
-        },
-        {
-            "type": "java",
-            "name": "StringMethods",
-            "request": "launch",
-            "mainClass": "StringMethods",
-            "projectName": "java_2026_724e815d"
-        },
-        {
-            "type": "java",
-            "name": "StringBuilderMinOfTenString",
-            "request": "launch",
-            "mainClass": "StringBuilderMinOfTenString",
-            "projectName": "java_2026_724e815d"
-        },
-        {
-            "type": "java",
-            "name": "Task3",
-            "request": "launch",
-            "mainClass": "Task3",
-            "projectName": "java_2026_724e815d"
-        },
-        {
-            "type": "java",
-            "name": "Task4",
-            "request": "launch",
-            "mainClass": "Task4",
-            "projectName": "java_2026_724e815d"
-        },
-        {
-            "type": "java",
-            "name": "SampleFileToCheckIfGitAdded",
-            "request": "launch",
-            "mainClass": "SampleFileToCheckIfGitAdded",
-            "projectName": "java_2026_724e815d"
-        },
-        {
-            "type": "java",
             "name": "StringBuilderMinOfTenString",
             "request": "launch",
             "mainClass": "StringBuilderMinOfTenString",
