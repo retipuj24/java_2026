@@ -50,7 +50,7 @@ class Car extends Vehicle {
         System.out.println("Make: " + this.getMake()); 
         System.out.println("Model: " + this.getModel()); 
         System.out.println("Year: " + this.getYear()); 
-        System.out.println("Number of Doors: " + getNumberOfDoors()); 
+        System.out.println("Number of Doors: " + this.getNumberOfDoors()); 
     }
 
     public int getNumberOfDoors() {
