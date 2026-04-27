@@ -31,9 +31,10 @@ public class StringBuilderMinOfTenString {
 
     public static void getInput(String prompt, int min, int max) {
         boolean notValid = true; 
+        Scanner scanner = new Scanner(System.in);
         do {
             // clearScreen();
-            Scanner scanner = new Scanner(System.in);
+  
             inpuString= "";
             System.out.print(prompt + ": > ");
             String inpStr = scanner.nextLine().trim();
@@ -58,6 +59,7 @@ public class StringBuilderMinOfTenString {
                 }
             }
         } while (notValid);
+        scanner.close();
         
     }
     public static String getValidString(){

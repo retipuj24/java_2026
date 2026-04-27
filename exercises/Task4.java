@@ -11,9 +11,10 @@ public class Task4 {
 
     public static void getInput(String prompt, int min, int max) {
         boolean notValid = true; 
+        Scanner scanner;
         do {
             // clearScreen();
-            Scanner scanner = new Scanner(System.in);
+            scanner = new Scanner(System.in);
             inpuString= "";
             System.out.print(prompt);
             String inpStr = scanner.nextLine().trim();
@@ -37,7 +38,7 @@ public class Task4 {
                 }
             }
         } while (notValid);
-        
+        scanner.close();    
     }
     public static String getValidString(){
         return inpuString;
